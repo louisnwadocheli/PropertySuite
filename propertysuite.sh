@@ -1,6 +1,9 @@
 
 #!/bin/bash
 
+#brief about project rational
+echo 
+
 echo "Welcome to Bluesea Real Estate"
 #list properties
 #register clients
