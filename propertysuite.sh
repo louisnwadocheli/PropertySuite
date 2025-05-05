@@ -2,7 +2,7 @@
 #!/bin/bash
 
 #brief about project rational
-echo 
+echo "This app enables property owners to list their properties and clients can easily find them"
 
 echo "Welcome to Bluesea Real Estate"
 #list properties
