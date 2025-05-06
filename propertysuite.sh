@@ -26,6 +26,7 @@ function property() {
 	read landlord_phone
 	echo "$property_name               $property_amount               $landlord_name" >> property_list.txt
 	echo "------------------------------------------------------"
+	echo "Hi $landlord_name,"
 	echo "Thank you for registering your property with us."
 	echo "______________________________________________________"
 }
