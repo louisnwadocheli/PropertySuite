@@ -2,8 +2,9 @@
 #!/bin/bash
 
 #brief about project rational
-echo "This app enables property owners to list their properties and clients can easily find them"
-echo "Sign up today"
+echo "This app enables property owners to list their properties and clients can easily find them".
+echo "We equally serve clients hwo need accomodation to connect with their desired properties without hastle."
+echo "---Sign up today---"
 
 echo "Welcome to Bluesea Real Estate"
 #list properties
