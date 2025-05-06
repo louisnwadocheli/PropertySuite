@@ -34,7 +34,7 @@ function landlord() {
 	echo  "_______________________________________________________"
 }
 
-function lanadlor_details(){
+function lanadlord_details(){
 	cat landlord1.txt
 	echo "________________________________________________________"
 }
@@ -111,7 +111,7 @@ while true; do
 		1) property;;
 		2) tenant;;
 		3) rent;;
-		4) landlord ;;
+		4) lanadlord_details ;;
 		5) property_list ;;
 		6) echo "Logging out...Thank you."
 			break ;;
