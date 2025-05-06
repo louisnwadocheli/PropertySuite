@@ -3,6 +3,7 @@
 
 #brief about project rational
 echo "This app enables property owners to list their properties and clients can easily find them"
+echo "Sign up today"
 
 echo "Welcome to Bluesea Real Estate"
 #list properties
