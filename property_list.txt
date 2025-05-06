@@ -7,3 +7,5 @@ Flat 1, Odogwu Estate, Lagos               £2000               Chelsea Odogwu
 =======
                £1920               Mark Wood
 >>>>>>> propertyReg
+d               d               6
+123               200               james

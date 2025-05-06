@@ -12,13 +12,24 @@ echo "Welcome to Bluesea Real Estate"
 #rent property
 
 #Age confirmation to enable renting which is only available for 18yrs +
-function(){
+function Age_Confirmation(){
 	echo "How old are you?"
  	read age
-  	if ( $age -lt 18 )
+  	if [ "$age" -lt 18 ]; then
    		echo "You are not permitted to rent"
-     		break;;
-        fi
+     	exit
+    fi
+}
+
+#asking for any other service 
+function responds() {
+	echo "Do you need any other services, (y/n)?"
+	read answer
+	answer=$(echo "$answer" | tr '[:upper:]' '[:lower:]')
+	if [ "$answer" != "y" ]; then
+		exit
+	fi
+	echo "____________________________________________________"
 }
 
 #property listing
@@ -38,6 +49,8 @@ function property() {
 	echo "Hi $landlord_name,"
 	echo "Thank you for registering your property with us."
 	echo "______________________________________________________"
+	responds
+
 }
 
 #landlord registration
@@ -51,6 +64,7 @@ function landlord() {
 function lanadlord_details(){
 	cat landlord1.txt
 	echo "________________________________________________________"
+	responds
 }
 
 #tenant registration
@@ -63,12 +77,14 @@ function tenant() {
 	echo "Phone Number"
 	read client_phone
 	echo "_____________________________________________________"
+	responds
 }
 
 function property_list() {
 	echo "Full list of our properties:"
 	cat property_list.txt
 	echo "____________________________________________________"
+	responds
 }
 
 #function has not been used
@@ -108,9 +124,11 @@ function rent() {
 
 	fi
 	echo "_______________________________________________________"
+	responds
 }
 
 while true; do
+	Age_Confirmation
 	echo "Please choose your service option:"
 	echo "1. Register your property"
 	echo "2. Register as a tenant"
