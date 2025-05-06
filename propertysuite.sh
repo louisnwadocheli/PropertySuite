@@ -34,6 +34,11 @@ function landlord() {
 	echo  "_______________________________________________________"
 }
 
+function lanadlor_details(){
+	cat landlord1.txt
+	echo "________________________________________________________"
+}
+
 #tenant registration
 function tenant() {
 	echo "Please register as a tenant"
