@@ -11,9 +11,17 @@ echo "Welcome to Bluesea Real Estate"
 #register clients
 #rent property
 
+#Age confirmation to enable renting which is only available for 18yrs +
+function(){
+	echo "How old are you?"
+ 	read age
+  	if ( $age -lt 18 )
+   		echo "You are not permitted to rent"
+     		break;;
+        fi
+}
 
 #property listing
-
 function property() {
 	echo "Please register your property with us:"
 	echo "_____________________________________________________"
