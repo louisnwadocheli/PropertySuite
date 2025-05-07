@@ -2,10 +2,4 @@
 Flat 4, block 6, Linda estate               $1200               King Carmel
 Flat 2, Unity Block, London               £2000               Louis Nwadocheli
 Flat 1, Odogwu Estate, Lagos               £2000               Chelsea Odogwu
-<<<<<<< HEAD
 340, Springbourne road, Bath               £2300               James Author
-=======
-               £1920               Mark Wood
->>>>>>> propertyReg
-d               d               6
-123               200               james
