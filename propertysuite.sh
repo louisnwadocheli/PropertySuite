@@ -22,6 +22,8 @@ function Age_Confirmation(){
      	exit
     fi
 }
+#calling Age_Confirmation function to test the age of user
+Age_Confirmation
 
 #asking for any other service 
 function responds() {
@@ -130,7 +132,6 @@ function rent() {
 }
 
 while true; do
-	Age_Confirmation
 	echo "Please choose your service option:"
 	echo "1. Register your property"
 	echo "2. Register as a tenant"
