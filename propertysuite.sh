@@ -1,15 +1,17 @@
 
 #!/bin/bash
 
-#brief about project rational
-echo "This app enables property owners to list their properties and clients can easily find them".
-echo "We equally serve clients hwo need accomodation to connect with their desired properties without hastle."
-echo "---Sign up today---"
-
 echo "Welcome to Bluesea Real Estate"
 #list properties
 #register clients
 #rent property
+
+#brief about project rational
+echo "This app enables property owners to list their properties and clients can easily find them".
+echo "We equally serve clients who need accomodation to connect with their desired properties without hastle."
+echo "---Sign up today---"
+
+
 
 #Age confirmation to enable renting which is only available for 18yrs +
 function Age_Confirmation(){
